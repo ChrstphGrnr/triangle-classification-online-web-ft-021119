@@ -3,10 +3,8 @@ class Triangle
 
 
 
-  def initialize(length_1: value, length_2:value, length_3: value)
-    @length_1 = length_1
-    @length_2 = length_2
-    @length_3 = length_3
+  def initialize(lengths)
+    lengths.each {|key, value| self.send("#{key}=", value)}
   end
 
   def kind
