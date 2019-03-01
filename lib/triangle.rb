@@ -11,11 +11,7 @@ class Triangle
 
   def kind
     if @length_1 < 0 || @length_2 < 0 || @length_3 < 0
-      begin
-        raise TriangleError
-      rescue TriangleError => error
-        puts error.msg
-      end
+      raise TriangleError
     elsif @length_1 == @length
 
 
