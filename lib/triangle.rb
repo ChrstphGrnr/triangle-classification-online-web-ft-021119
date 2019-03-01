@@ -3,7 +3,7 @@ class Triangle
 
 
 
-  def initialize(length_1:value, length_2:value, length_3:value)
+  def initialize(length_1, length_2, length_3)
   end
 
   def kind
