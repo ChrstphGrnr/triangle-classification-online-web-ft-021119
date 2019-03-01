@@ -1,5 +1,5 @@
 class Triangle
-  attr_accessor :l_1, :l_2, :length_3
+  attr_accessor :l_1, :l_2, :l_3
 
 
 
@@ -13,8 +13,9 @@ class Triangle
 
     if @l_1 <= 0 || @l_2 <= 0 || @l_3 <= 0
       raise TriangleError
-    elsif @l_1 + @l_2 < @l_3 || @l_1 + @l_3 < @l_2 || @l_2 + @l_3 <
+    elsif @l_1 + @l_2 < @l_3 || @l_1 + @l_3 < @l_2 || @l_2 + @l_3 < @l_1
       raise TriangleError
+      
 
 
 
