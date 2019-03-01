@@ -28,9 +28,7 @@ class Triangle
 
 
   class TriangleError < StandardError
-    def msg
-      puts "The given lengths don't equate to a valid triangle!"
-    end
+
   end
 
 
