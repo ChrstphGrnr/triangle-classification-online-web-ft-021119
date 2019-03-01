@@ -16,6 +16,7 @@ class Triangle
       rescue TriangleError => error
         puts error.msg
       end
+    elsif @length_1 == @length
 
 
   end
