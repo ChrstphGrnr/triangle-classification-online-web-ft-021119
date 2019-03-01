@@ -6,7 +6,10 @@ class Triangle
   def initialize(length_1:value, length_2:value, length_3:value)
   end
 
-  
+  def kind
+    
+
+
 
   class TriangleError < StandardError
 
