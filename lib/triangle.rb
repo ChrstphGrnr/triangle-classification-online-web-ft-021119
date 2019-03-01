@@ -11,7 +11,7 @@ class Triangle
 
   def kind
 
-    if @l_1 <= 0 || @length_2 <= 0 || @length_3 <= 0
+    if @l_1 <= 0 || @l_2 <= 0 || @length_3 <= 0
       raise TriangleError
     elsif @l_1 + @length_2 < @length_3 || @l_1 + @length_3 < @length_2 || @length_2 + @length_2 <
       raise TriangleError
