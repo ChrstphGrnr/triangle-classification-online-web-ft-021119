@@ -18,7 +18,7 @@ class Triangle
       end
     elsif @length_1 == @length
 
-      
+
     end
 
 
@@ -30,6 +30,7 @@ class Triangle
   class TriangleError < StandardError
     "The given lengths don't equate to a valid triangle!"
   end
+
 
 
 end
