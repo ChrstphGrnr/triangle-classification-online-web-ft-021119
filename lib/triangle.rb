@@ -18,6 +18,9 @@ class Triangle
       end
     elsif @length_1 == @length
 
+      
+    end
+
 
   end
 
