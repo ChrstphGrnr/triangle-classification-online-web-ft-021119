@@ -24,7 +24,7 @@ class Triangle
 
 
   class TriangleError < StandardError
-
+    "The given lengths don't equate to a valid triangle!"
   end
 
 
