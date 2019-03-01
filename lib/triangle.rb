@@ -21,10 +21,7 @@ class Triangle
       :scalene
     elsif @l_1 == @l_2 || @l_1 == @l_3 || @l_2 == @l_3
       :isosceles
-
     end
-
-
   end
 
 
